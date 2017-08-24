@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698271D61F4E6B1400CF0426 /* XLTheorySingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698271D41F4E6B1400CF0426 /* XLTheorySingle.swift */; };
+		698271D71F4E6B1400CF0426 /* XLTheorySingle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698271D51F4E6B1400CF0426 /* XLTheorySingle.xib */; };
+		698E3A6D1F428275007037DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E3A6C1F428275007037DF /* AppDelegate.swift */; };
+		698E3A6F1F428275007037DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E3A6E1F428275007037DF /* ViewController.swift */; };
+		698E3A721F428275007037DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698E3A701F428275007037DF /* Main.storyboard */; };
+		698E3A741F428275007037DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698E3A731F428275007037DF /* Assets.xcassets */; };
+		698E3A771F428275007037DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698E3A751F428275007037DF /* LaunchScreen.storyboard */; };
+		698E3A7F1F4286BA007037DF /* XLSqliteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E3A7E1F4286BA007037DF /* XLSqliteService.swift */; };
+		698E3A891F429027007037DF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E3A881F429027007037DF /* libsqlite3.tbd */; };
+		698E3A8B1F42930F007037DF /* XLSqliteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698E3A8A1F42930F007037DF /* XLSqliteManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		698271D41F4E6B1400CF0426 /* XLTheorySingle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLTheorySingle.swift; sourceTree = "<group>"; };
+		698271D51F4E6B1400CF0426 /* XLTheorySingle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLTheorySingle.xib; sourceTree = "<group>"; };
+		698E3A691F428275007037DF /* XLTheoryNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLTheoryNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		698E3A6C1F428275007037DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		698E3A6E1F428275007037DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		698E3A711F428275007037DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		698E3A731F428275007037DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		698E3A761F428275007037DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		698E3A781F428275007037DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698E3A7E1F4286BA007037DF /* XLSqliteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLSqliteService.swift; sourceTree = "<group>"; };
+		698E3A821F428E64007037DF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		698E3A841F428FAC007037DF /* XLTheoryNew-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLTheoryNew-Bridging-Header.h"; sourceTree = "<group>"; };
+		698E3A881F429027007037DF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		698E3A8A1F42930F007037DF /* XLSqliteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLSqliteManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		698E3A661F428275007037DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698E3A891F429027007037DF /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		698271D31F4E6AFB00CF0426 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				698E3A701F428275007037DF /* Main.storyboard */,
+				698E3A731F428275007037DF /* Assets.xcassets */,
+				698E3A751F428275007037DF /* LaunchScreen.storyboard */,
+				698E3A781F428275007037DF /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		698E3A601F428275007037DF = {
+			isa = PBXGroup;
+			children = (
+				698E3A6B1F428275007037DF /* XLTheoryNew */,
+				698E3A6A1F428275007037DF /* Products */,
+				698E3A811F428E64007037DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		698E3A6A1F428275007037DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698E3A691F428275007037DF /* XLTheoryNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		698E3A6B1F428275007037DF /* XLTheoryNew */ = {
+			isa = PBXGroup;
+			children = (
+				698E3A6C1F428275007037DF /* AppDelegate.swift */,
+				698E3A6E1F428275007037DF /* ViewController.swift */,
+				698271D41F4E6B1400CF0426 /* XLTheorySingle.swift */,
+				698271D51F4E6B1400CF0426 /* XLTheorySingle.xib */,
+				698271D31F4E6AFB00CF0426 /* Support */,
+				698E3A841F428FAC007037DF /* XLTheoryNew-Bridging-Header.h */,
+				698E3A801F4286BE007037DF /* XLSqliteService */,
+			);
+			path = XLTheoryNew;
+			sourceTree = "<group>";
+		};
+		698E3A801F4286BE007037DF /* XLSqliteService */ = {
+			isa = PBXGroup;
+			children = (
+				698E3A8A1F42930F007037DF /* XLSqliteManager.swift */,
+				698E3A7E1F4286BA007037DF /* XLSqliteService.swift */,
+			);
+			name = XLSqliteService;
+			sourceTree = "<group>";
+		};
+		698E3A811F428E64007037DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698E3A881F429027007037DF /* libsqlite3.tbd */,
+				698E3A821F428E64007037DF /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		698E3A681F428275007037DF /* XLTheoryNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698E3A7B1F428275007037DF /* Build configuration list for PBXNativeTarget "XLTheoryNew" */;
+			buildPhases = (
+				698E3A651F428275007037DF /* Sources */,
+				698E3A661F428275007037DF /* Frameworks */,
+				698E3A671F428275007037DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLTheoryNew;
+			productName = XLTheoryNew;
+			productReference = 698E3A691F428275007037DF /* XLTheoryNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		698E3A611F428275007037DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "www.bthdtm.com 豪德天沐移动事业部";
+				TargetAttributes = {
+					698E3A681F428275007037DF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = KJN6G527NM;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 698E3A641F428275007037DF /* Build configuration list for PBXProject "XLTheoryNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 698E3A601F428275007037DF;
+			productRefGroup = 698E3A6A1F428275007037DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698E3A681F428275007037DF /* XLTheoryNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		698E3A671F428275007037DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698271D71F4E6B1400CF0426 /* XLTheorySingle.xib in Resources */,
+				698E3A771F428275007037DF /* LaunchScreen.storyboard in Resources */,
+				698E3A741F428275007037DF /* Assets.xcassets in Resources */,
+				698E3A721F428275007037DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		698E3A651F428275007037DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698271D61F4E6B1400CF0426 /* XLTheorySingle.swift in Sources */,
+				698E3A6F1F428275007037DF /* ViewController.swift in Sources */,
+				698E3A8B1F42930F007037DF /* XLSqliteManager.swift in Sources */,
+				698E3A7F1F4286BA007037DF /* XLSqliteService.swift in Sources */,
+				698E3A6D1F428275007037DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		698E3A701F428275007037DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				698E3A711F428275007037DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		698E3A751F428275007037DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				698E3A761F428275007037DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		698E3A791F428275007037DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		698E3A7A1F428275007037DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		698E3A7C1F428275007037DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KJN6G527NM;
+				INFOPLIST_FILE = XLTheoryNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holdtime.XLTheoryNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLTheoryNew/XLTheoryNew-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		698E3A7D1F428275007037DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KJN6G527NM;
+				INFOPLIST_FILE = XLTheoryNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holdtime.XLTheoryNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLTheoryNew/XLTheoryNew-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		698E3A641F428275007037DF /* Build configuration list for PBXProject "XLTheoryNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698E3A791F428275007037DF /* Debug */,
+				698E3A7A1F428275007037DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698E3A7B1F428275007037DF /* Build configuration list for PBXNativeTarget "XLTheoryNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698E3A7C1F428275007037DF /* Debug */,
+				698E3A7D1F428275007037DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 698E3A611F428275007037DF /* Project object */;
+}
